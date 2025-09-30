@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: theme(colors.brand.400);
+}
+.prose :where(p):not(:where([class~="not-prose"] *)) {
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
+}
+/* High-contrast utility ring color */
+.hc :where(.focus-ring) {
+  outline: 3px solid var(--ring);
+}

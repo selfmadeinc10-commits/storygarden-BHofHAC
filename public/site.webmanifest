@@ -1,0 +1,14 @@
+{
+  "name": "StoryGarden",
+  "short_name": "StoryGarden",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "64x64"
+    }
+  ],
+  "theme_color": "#2c8fff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
